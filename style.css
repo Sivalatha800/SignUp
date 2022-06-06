@@ -1,0 +1,26 @@
+.data h1 {
+  text-align: center;
+  background: #0072ff;
+  height: 80px;
+  line-height: 80px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-transform: uppercase;
+}
+
+.reg-form .data-body {
+  border: 1px solid #0072ff;
+  border-top: 0;
+  padding: 7%;
+  margin-top: -10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.data-body .form-group:not(:last-child) {
+  margin: 0 0 20px 0;
+}
+.form-group .danger {
+  font-size: 18px;
+  margin-top: 10px;
+}
